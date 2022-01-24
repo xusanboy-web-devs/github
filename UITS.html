@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <title>Uychi It School Rasmiy</title>
+  <link rel="stylesheet" href="stylesss.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="icon" href="./IMGS/IT park uychi.ico">
+</head>
+
+<body>
+
+  <div class="navigation" id="nawtopmenu">
+    <div class="posi">
+    </div>
+    <ul>
+      
+      <li class="list active">
+        <a href="#home">
+
+          <span class="icon">
+            <ion-icon class="iconnaw" name="home-outline"></ion-icon>
+          </span>
+          <span class="title">Home</span>
+        </a>
+      <li class="list">
+        <a href="#Portfolio">
+          <span class="icon">
+            <ion-icon class="iconnaw" name="person-outline"></ion-icon>
+          </span>
+          <span class="title">About</span>
+          <link rel="stylesheet" href="aqism">
+        </a>
+      </li>
+      </li>
+      <li class="list">
+        <a href="#Yutuqlar">
+          <span class="icon">
+            <ion-icon class="iconnaw" name="clipboard-outline"></ion-icon>
+          </span>
+          <span class="title">Portfolio</span>
+        </a>
+      </li>
+
+
+      <!-- <li class="list">
+        <a href="#contactres">
+          <span class="icon">
+            <ion-icon class="iconnaw" name="chatbubbles-outline"></ion-icon>
+          </span>
+          <span class="title">Contact</span>
+        </a>
+      </li> -->
+
+      <li class="list">
+        <a href="/reg-query/index.html">
+          <span class="icon">
+            <ion-icon name="create-outline"></ion-icon>
+          </span>
+          <span class="title">Sign Up</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="https://goo.gl/maps/UvPtq7pQx7gA83K57">
+          <span class="icon">
+            <ion-icon name="navigate-circle-outline"></ion-icon>
+          </span>
+          <span class="title">Map</span>
+        </a>
+      </li>
+
+      <li class="list">
+        <a href="./MY FOLIO/index.html">
+          <span class="icon">
+            <ion-icon name="person-circle-outline"></ion-icon>
+          </span>
+          <span class="title">Creator</span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    //add active class in selected tab
+    const list = document.querySelectorAll('.list');
+    function activeLink() {
+      list.forEach((item) =>
+        item.classList.remove('active'));
+      this.classList.add('active')
+    }
+    list.forEach((item) =>
+      item.addEventListener('click', activeLink));
+  </script>
+
+
+
+
+  <section id="home" class="homea">
+    <img class="imagehome" src="./IMGS/IMAGE_UITS/background image room.JPG" alt="">
+    <div class="homebg"></div>
+    <span class="spn1">IT</span>
+    <span class="spnl">Yorqin Kelajakni Biz Bilan Qur</span>
+    <span class="spnr">School</span>
+    <span class="spn2">UYCHI</span>
+
+    <!-- <img class="Homea-img" src="./IMGS/IT-PARK.png" alt=""> -->
+
+  </section>
+
+  <section id="Portfolio" class="homeb">
+    <div class="setcolor"></div>
+    <div class="background">
+      <div class="shape1"></div>
+      <div class="shape2"></div>
+      <div class="shape3"></div>
+      <div class="shape4"></div>
+      <div class="shape5"></div>
+      <div class="shape6"></div>
+      <div class="shape7"></div>
+      <div class="shape8"></div>
+      <div class="shape9"></div>
+      <div class="shape10"></div>
+      <div class="shape11"></div>
+      <div class="shape12"></div>
+      <div class="shape13"></div>
+    </div>
+    <div class="Sherzodbek">
+      <div class="ribbon"></div>
+      <ul class="fon-i">
+        <li><a class="fab fa-telegram-plane"></a></li>
+        <li><a class="fab fa-facebook-f"></a></li>
+        <li><a class="fab fa-instagram"></a></li>
+        <li><a href="tel:+998 99 984 77 27" class="fas fa-phone-alt"></a></li>
+      </ul>
+      <div class="malumot"><i class="fas fa-address-book"></i>Sherzodbek Menejer</div><img
+        class="teacher1 teacher Sherzodbek-photo" src="./IMGS/IMAGE_UITS/sherzot domla-2.png" alt="">
+    </div>
+
+    <div class="Abrorbek">
+      <div class="ribbon2"></div>
+      <ul class="fon-i">
+        <li><i class="fab fa-telegram-plane"></i></li>
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fas fa-phone-alt"></i></li>
+      </ul>
+      <div class="malumot"><i class="fas fa-address-book"></i>Abror Mirzakarimov</div><img class="teacher1 teacher"
+        src="./IMGS/Abrorbek-domla.png" alt="">
+    </div>
+
+    <div class="Axrorbek">
+      <div class="ribbon3"></div>
+      <ul class="fon-i">
+        <li><i class="fab fa-telegram-plane"></i></li>
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fas fa-phone-alt"></i></li>
+      </ul>
+      <div class="malumot"><i class="fas fa-address-book"></i>Mamadaliyev Ahrorbek</div><img
+        src="./IMGS/IMAGE_UITS/ahror domla-2.png " class="teacherAxrorbek" alt="">
+    </div>
+
+    <div class="Rahmatillo">
+      <div class="ribbon4"></div>
+      <ul class="fon-i">
+        <li><i class="fab fa-telegram-plane"></i></li>
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fas fa-phone-alt"></i></li>
+      </ul>
+      <div class="malumot"><i class="fas fa-address-book"></i>Muhammadshokirov Rahmatillo<div class="navicon"><a
+            href="#"></a></div>
+      </div>
+      <img class="Raxmatillo-aka" src="./IMGS/rahmatillo aka.png" alt="">
+    </div>
+
+
+    <div class="Ozodbek">
+      <div class="ribbon5"></div>
+      <ul class="fon-i">
+        <li><i class="fab fa-telegram-plane"></i></li>
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fas fa-phone-alt"></i></li>
+      </ul>
+      <div class="malumot"><i class="fas fa-address-book"></i>Ozodbek<div class="navicon"><a href="#"></a></div>
+      </div>
+      <img class="Ozodbek-aka" src="./IMGS/Ozodbek_aka-removebg-preview.png" alt="">
+    </div>
+
+  </section>
+  <section id="Yutuqlar">
+    <!-- <img class="imageCertificate1" src="./IMGS/IMAGE_UITS/sertyificate.jpg" alt="">
+    <img class="imageCertificate2" src="./IMGS/IMAGE_UITS/IMG_20220114_145349-removebg-preview.png" alt="">
+    <img class="imageCertificate3" style="transform: rotate(90deg);" src="./IMGS/IMAGE_UITS/sertificate3.png" alt="">
+    <img class="imageCertificate4" src="./IMGS/IMAGE_UITS/sertificate2.png" alt=""> -->
+    <img class="page" id="pages" src="./IMGS/IMAGE_UITS/Litsenziya.jpg" alt="">
+    <span id="litsenziya" >Litsenziyani Ochish</span>
+  </section>
+
+  <section id="directions" class="homed">
+    <div class="all">
+      <div class="lefter2">
+        <div class="text"> Autocad</div>
+      </div>
+      <div class="lefter">
+        <div class="text">ANDROID DASTURLASH</div>
+      </div>
+      <div class="left">
+        <div class="text">WEB DASTURLASH (Frontend)(Backend)</div>
+      </div>
+      <div class="center">
+        <div class="explainer"><span>BIZNING O'QUV MARKAZDAGI YO'NALISHLAR</span></div>
+        <div class="text">KOMPYUTER SAVODXONLIGI</div>
+      </div>
+      <div class="right">
+        <div class="text">PYTHON dasturlash</div>
+      </div>
+      <div class="righter">
+        <div class="text">Grafik Dizayn</div>
+      </div>
+      <div class="righter2">
+        <div class="text">ROBOTOTEXNIKA</div>
+      </div>
+    </div>
+    <div class="slide-container">
+
+      <div class="wrapper">
+        <div class="clash-card barbarian">
+          <div class="clash-card__image clash-card__image--barbarian">
+            <img class="brandimage imagebr1"
+              src="https://cdn3.iconfinder.com/data/icons/online-learning-flat-1/64/07_digital_book_online_learning_study_education_computer_read-256.png"
+              alt="" />
+          </div>
+          <div class="clash-card__level clash-card__level--barbarian"> </div>
+          <div class="clash-card__unit-name">Kompyuter savodxonligi</div>
+          <div class="clash-card__unit-description">
+          </div>
+
+          <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+            <div class="one-third">
+              <div class="stat"><sup>1 oylik To'lov</sup></div>
+              <div class="stat-value">175 000 SO'M</div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat">Muddat</div>
+              <div class="stat-value">1 OY</div>
+            </div>
+
+            <div class="one-third no-border">
+              <div class="stat">Sertificat</div>
+              <div class="stat-value">Bilan Taqdirlanadi</div>
+            </div>
+
+          </div>
+
+        </div> <!-- end clash-card barbarian-->
+      </div> <!-- end wrapper -->
+      <div class="wrapper">
+        <div class="clash-card barbarian">
+          <div class="clash-card__image clash-card__image--barbarian">
+            <img class="brandimage imagebr1"
+              src="https://cdn2.iconfinder.com/data/icons/scenarium-vol-1-2/128/009_workspace_workplace_desktop_computer_keyboard_mouse_screen-256.png"
+              alt="" />
+          </div>
+          <div class="clash-card__level clash-card__level--barbarian"> </div>
+          <div class="clash-card__unit-name">Kompyuterdan Samarali Foydalanish</div>
+          <div class="clash-card__unit-description">
+          </div>
+
+          <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+            <div class="one-third">
+              <div class="stat"><sup>1oylik To'lov</sup></div>
+              <div class="stat-value">175 000 SO'M</div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat">Muddat</div>
+              <div class="stat-value">3 OY</div>
+            </div>
+
+            <div class="one-third no-border">
+              <div class="stat">Sertificat</div>
+              <div class="stat-value">Bilan Taqdirlanadi</div>
+            </div>
+
+          </div>
+
+        </div> <!-- end clash-card barbarian-->
+      </div> <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="clash-card archer">
+          <div class="clash-card__image clash-card__image--archer">
+            <img class="brandimage"
+              src="https://cdn1.iconfinder.com/data/icons/web-development-34/128/yumminky_development_27-128.png"
+              alt="">
+          </div>
+          <div class="clash-card__level clash-card__level--archer"></div>
+          <div class="clash-card__unit-name">Web Dasturlash (Frontend)(Backend)</div>
+          <div class="clash-card__unit-description">
+          </div>
+
+          <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix">
+            <div class="one-third">
+              <div class="stat"><sup>1oylik To'lov</sup></div>
+              <div class="stat-value">250 000 SO'M</div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat">Davomiyligi</div>
+              <div class="stat-value">2-4 OY</div>
+            </div>
+
+            <div class="one-third no-border">
+              <div class="stat">Sertificat</div>
+              <div class="stat-value">Bilan Taqdirlanadi</div>
+            </div>
+
+          </div>
+
+        </div> <!-- end clash-card archer-->
+      </div> <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="clash-card giant">
+          <div class="clash-card__image clash-card__image--giant">
+            <img class="brandimage"
+              src="https://cdn3.iconfinder.com/data/icons/2020-screens/128/Android_Programming-128.png" alt="">
+          </div>
+          <div class="clash-card__level clash-card__level--giant"></div>
+          <div class="clash-card__unit-name">Android Dasturlash</div>
+          <div class="clash-card__unit-description">
+          </div>
+
+          <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix">
+            <div class="one-third">
+              <div class="stat"><sup>1oylik To'lov</sup></div>
+              <div class="stat-value">300 000 SO'M</div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat">Muddat</div>
+              <div class="stat-value">2-4 OY</div>
+            </div>
+
+            <div class="one-third no-border">
+              <div class="stat">Sertificat</div>
+              <div class="stat-value">Bilan Taqdirlanadi</div>
+            </div>
+
+          </div>
+
+        </div> <!-- end clash-card giant-->
+      </div> <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="clash-card goblin">
+          <div class="clash-card__image clash-card__image--goblin">
+            <img class="brandimage" src="https://cdn3.iconfinder.com/data/icons/robots-3/64/_Floating_Robot-128.png"
+              alt="" />
+          </div>
+          <div class="clash-card__level clash-card__level--goblin"></div>
+          <div class="clash-card__unit-name">Robototexnika</div>
+          <div class="clash-card__unit-description">
+          </div>
+
+          <div class="clash-card__unit-stats clash-card__unit-stats--goblin clearfix">
+            <div class="one-third">
+              <div class="stat"><sup>1oylik To'lov</sup></div>
+              <div class="stat-value">300 000 SO'M</div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat">Muddat</div>
+              <div class="stat-value">3 OY</div>
+            </div>
+
+            <div class="one-third no-border">
+              <div class="stat">Sertificat</div>
+              <div class="stat-value">Bilan Taqdirlanadi</div>
+            </div>
+
+          </div>
+
+        </div> <!-- end clash-card goblin-->
+      </div> <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="clash-card wizard">
+          <div class="clash-card__image clash-card__image--wizard">
+            <img class="brandimage"
+              src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-128.png" alt="" />
+          </div>
+          <div class="clash-card__level clash-card__level--wizard"></div>
+          <div class="clash-card__unit-name">Pyhthon Dasturlash</div>
+          <div class="clash-card__unit-description">
+          </div>
+
+          <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
+            <div class="one-third">
+              <div class="stat"><sup>1oylik To'lov</sup></div>
+              <div class="stat-value">300 000 SO'M</div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat">Muddat</div>
+              <div class="stat-value">3 OY</div>
+            </div>
+
+            <div class="one-third no-border">
+              <div class="stat">Sertificat</div>
+              <div class="stat-value">Bilan Taqdirlanadi</div>
+            </div>
+
+          </div>
+
+        </div> <!-- end clash-card wizard-->
+      </div> <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="clash-card wizard">
+          <div class="clash-card__image clash-card__image--wizard">
+            <img class="brandimage"
+              src="https://cdn3.iconfinder.com/data/icons/video-games-18/64/21_team_gamer_gamepad_game_gamer_cybersport_gaming_-256.png"
+              alt="" />
+          </div>
+          <div class="clash-card__level clash-card__level--wizard"></div>
+          <div class="clash-card__unit-name">Cybersport</div>
+          <div class="clash-card__unit-description">
+          </div>
+
+          <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
+            <div class="one-third">
+              <div class="stat"><sup>1oylik To'lov</sup></div>
+              <div class="stat-value">150 000 SO'M</div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat">Muddat</div>
+              <div class="stat-value">3 OY</div>
+            </div>
+
+            <div class="one-third no-border">
+              <div class="stat">Sertificat</div>
+              <div class="stat-value">Bilan Taqdirlanadi</div>
+            </div>
+
+          </div>
+
+        </div> <!-- end clash-card wizard-->
+      </div> <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="clash-card wizard">
+          <div class="clash-card__image clash-card__image--wizard">
+            <img class="brandimage" src="https://cdn2.iconfinder.com/data/icons/popicon-part-1/256/45-256.png" alt="" />
+          </div>
+          <div class="clash-card__level clash-card__level--wizard"></div>
+          <div class="clash-card__unit-name">Grafik Dizayn</div>
+          <div class="clash-card__unit-description">
+          </div>
+
+          <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
+            <div class="one-third">
+              <div class="stat"><sup>1oylik To'lov</sup></div>
+              <div class="stat-value">300 000 SO'M</div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat">Muddat</div>
+              <div class="stat-value">3 OY</div>
+            </div>
+
+            <div class="one-third no-border">
+              <div class="stat">Sertificat</div>
+              <div class="stat-value">Bilan Taqdirlanadi</div>
+            </div>
+
+          </div>
+
+        </div> <!-- end clash-card wizard-->
+      </div> <!-- end wrapper -->
+
+      <div class="wrapper">
+        <div class="clash-card wizard">
+          <div class="clash-card__image clash-card__image--wizard">
+            <img class="brandimage"
+              src="https://cdn3.iconfinder.com/data/icons/3d-modeling-printing-volume-1/64/3d-programming-256.png"
+              alt="" />
+          </div>
+          <div class="clash-card__level clash-card__level--wizard"></div>
+          <div class="clash-card__unit-name">Autocad</div>
+          <div class="clash-card__unit-description">
+          </div>
+
+          <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
+            <div class="one-third">
+              <div class="stat"><sup>1oylik To'lov</sup></div>
+              <div class="stat-value">300 000 SO'M</div>
+            </div>
+
+            <div class="one-third">
+              <div class="stat">Muddat</div>
+              <div class="stat-value">3 OY</div>
+            </div>
+
+            <div class="one-third no-border">
+              <div class="stat">Sertificat</div>
+              <div class="stat-value">Bilan Taqdirlanadi</div>
+            </div>
+
+          </div>
+
+        </div> <!-- end clash-card wizard-->
+      </div> <!-- end wrapper -->
+
+    </div>
+
+  </section>
+
+  <section id="contact" class="homee">
+    <div class="inputs">
+      <div class="container-inp1"><input placeholder="Ismingiz" class="chats1" type="text"></div>
+      <div class="container-inp2"><input placeholder="Familyangiz" class="chats2" type="text"></div>
+      <textarea class="chatstext" placeholder="Xabar qoldirng" name="" id="" cols="30" rows="10"></textarea>
+      <input class="OK" type="button" value="YUBORISH">
+    </div>
+    <iframe class="ifrCom"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.0492340746305!2d71.83224682923354!3d41.028122010418905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7129fef61551756d!2zNDHCsDAxJzQxLjIiTiA3McKwNDknNTguMSJF!5e1!3m2!1suz!2s!4v1640839280909!5m2!1suz!2s"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <img class="image-con1" src="./IMGS/IT BRAND.jpg" alt="">
+    <img class="image-con2" src="./IMGS/IT BRAND.jpg" alt="">
+    <img class="image-con3" src="./IMGS/IT-PARK.png" alt="">
+    <img class="image-con4" src="./IMGS/rabo4ie.png" alt="">
+    <img class="image-con5" src="./IMGS/rabo4ie.png" alt="">
+    <img class="image-conback" src="./IMGS/IT park uychi.jpg" alt="">
+  </section>
+
+  <section id="contactres" class="contactres">
+    <form class="contactform" action="tgform.php">
+      <h3>Xabar Qoldirish</h3>
+
+      <label for="username">Ismingiz Va Familiyangiz</label>
+      <input type="text" placeholder="Name and Firstname" id="username">
+
+      <label for="password">Telefon Raqamingiz</label>
+      <input type="tel" value="+998 " id="password">
+      <label for="password">Telegram @username</label>
+      <input type="tel" value="@" id="password">
+
+      <button style="color: #000;">Xabarni Jo'natish ✉</button>
+      <div class="social">
+        <div class="go"><i class="fab fa-telegram"></i>Telegram</div>
+        <div class="fb"><i class="fab fa-facebook"></i>Facebook</div>
+      </div>
+      <iframe class="ifrRes"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.0492340746305!2d71.83224682923354!3d41.028122010418905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7129fef61551756d!2zNDHCsDAxJzQxLjIiTiA3McKwNDknNTguMSJF!5e1!3m2!1suz!2s!4v1640839280909!5m2!1suz!2s"
+        width="100" height="450" allowfullscreen="" loading="lazy"></iframe>
+      <a href="tel:+998 99 984 77 27" id="telephoneres">tel: +998 99 984 77 27</a>
+    </form>
+    </div>
+
+  </section>
+
+
+  <section class="navicon">
+    <button id="btn"><span></span><span></span><span></span>
+    </button>
+    <script>
+      let i = 1
+      var e = document.getElementById("btn");
+      e.addEventListener("click", function () {
+        if (this.className == "on") this.classList.remove("on");
+        else this.classList.add("on");
+        if (i % 2 == 1) {
+          document.getElementById('nawtopmenu').classList.add('navadd')
+        }
+        else {
+          document.getElementById('nawtopmenu').classList.remove('navadd')
+        }
+        i++
+      });
+    </script>
+  </section>
+
+  <section class="footer">
+
+    <div class="wrapper">
+      <div class="icon facebook">
+        <div class="tooltip">Facebook</div>
+        <span><a class="fab fa-facebook-f"></a></span>
+      </div>
+      <div class="icon twitter">
+        <div class="tooltip">Qo'ng'iroq Qilish</div>
+        <span><a href="tel:+998 99 984 77 27" class="fas fa-phone-alt"></a></span>
+      </div>
+      <div class="icon instagram">
+        <div class="tooltip">Instagram</div>
+        <span><a class="fab fa-instagram"></a></span>
+      </div>
+      <div class="icon github">
+        <div class="tooltip">Telegram</div>
+        <span><a href="https://ttttt.me/uitschool" class="fab fa-telegram"></a>
+      </div>
+      <div class="icon youtube">
+        <div class="tooltip">Youtube</div>
+        <span><a href="https://www.youtube.com/channel/UC-lhpyVAmGh1238boX3vdiw" class="fab fa-youtube"></a></span>
+      </div>
+    </div>
+
+  </section>
+
+
+  <script src="mainsite.js"></script>
+
+</body>
+
+</html>
